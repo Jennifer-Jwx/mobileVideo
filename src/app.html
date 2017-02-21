@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>移动端直播</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta content="yes" name="apple-mobile-web-app-capable">
+	<meta content="black" name="apple-mobile-web-app-status-bar-style">
+	<meta content="telephone=no" name="format-detection">
+</head>
+<body id="box">
+</body>
+<script type="text/javascript">
+	window.onload = function(){
+		document.getElementsByTagName('body')[0].addEventListener('touchmove', function(e){
+			e.preventDefault();
+		});
+	}
+</script>
+</html>

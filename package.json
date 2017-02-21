@@ -1,0 +1,32 @@
+{
+  "name": "mobilelive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.7.4",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta.4",
+    "html-webpack-plugin": "^2.28.0",
+    "jsx-loader": "^0.13.2",
+    "path": "^0.12.7",
+    "postcss-px2rem": "^0.3.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "react-router": "^3.0.2",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.2.0",
+    "showdown": "^1.6.4",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}

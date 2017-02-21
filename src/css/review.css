@@ -1,0 +1,221 @@
+.play{
+	width: 1.6rem;
+	height: 1.6rem;
+	position: absolute;
+	top: 2.22rem;
+	left: 4.6rem;
+	background: url(http://p2.ifengimg.com/a/2016/0907/play.png) no-repeat 0 0;
+	background-size: 100% 200%;
+}
+
+.fullwrap .play{
+	width: 1.92rem;
+	height: 1.92rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -0.96rem;
+	margin-left: -0.96rem;
+	background: url(http://p2.ifengimg.com/a/2016/0907/play.png) no-repeat 0 0;
+	background-size: 100% 200%;
+}
+
+.control_play{
+	width: 0.47rem;
+	height: 0.51rem;
+	margin: 0 0.5rem 0 0.57rem;
+	background: url(http://p2.ifengimg.com/a/2016/0907/play_little.png) no-repeat 0 0;
+	background-size: 100% 200%;
+}
+
+.pause .play, .pause .control_play{
+	background-position: 0 100%;
+}
+
+.display{
+	display: none;
+}
+
+.controlwrap{
+	width: 100%;
+	height: 1.96rem;
+	position: absolute;
+	bottom: 0;
+	background-image: -webkit-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+    background-image: -o-linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+    background-image: linear-gradient(top,rgba(0,0,0,0) 0%,rgba(0,0,0,0.9) 100%);
+}
+
+.control{
+	width: 100%;
+	height: 0.51rem;
+	position: absolute;
+	bottom: 0.27rem;
+	line-height: 0.51rem;
+}
+
+.control_center{
+	width: 75%;
+}
+
+.exitwrap .control_time, .exitwrap .control_duration{
+	width: 17%;
+	text-align: center;
+}
+
+.fullwrap .control_time, .fullwrap .control_duration{
+	width: 9.5%;
+	text-align: center;
+}
+
+.fullwrap .control_center{
+	width: 77%;
+}
+
+.exitwrap.rotated .control_center{
+	width: 72%;
+}
+
+.fullwrap .ipadwrap .control_center{
+	width: 70%;
+}
+
+.control_schedulewrap{
+	/*width: 5.69rem;*/
+	width: 55%;
+	height: 0.11rem;
+	position: relative;
+	top: 0.2rem;
+	background-color: #d1d1d1;
+	margin: 0 0.25rem;
+	border-radius: 3px;
+}
+
+.exitwrap.rotated .control_center .control_schedulewrap{
+	width: 59%;
+}
+
+.fullwrap .control_schedulewrap{
+	/*width: 80%;*/
+	width: 74%;
+	top: 0.25rem;
+	margin: 0 0.38rem;
+}
+
+.fullwrap.rotated .control_schedulewrap{
+	width: 75%;
+	top: 0.25rem;
+	margin: 0 0.38rem;
+}
+
+.fullwrap .ipadwrap .control_schedulewrap{
+	width: 70%;
+}
+
+.control_schedulewrap .schedule{
+	/*width: 1.61rem;*/
+	height: 0.11rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #ffa200;
+	border-radius: 3px 0 0 3px;
+}
+
+.control_schedulewrap .circlewrap{
+	width: 0.6rem;
+	height: 0.6rem;
+	/*position: relative;*/
+	position: absolute;
+	top: -0.24rem;
+	left: -0.09rem;
+	/*outline: 1px solid red;*/
+}
+
+.control_schedulewrap .circle{
+	width: 0.42rem;
+	height: 0.42rem;
+	border-radius: 0.42rem;
+	background-color: #fff;
+	position: absolute;
+	top: 0.09rem;
+	/*left: 0.01rem;*/
+	/*left: 1.61rem;*/
+}
+
+.control_full{
+	width: 0.51rem;
+	height: 0.51rem;
+	margin-right: 0.58rem;
+	background: url(http://p2.ifengimg.com/a/2016/0907/full.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+.control_exitfull{
+	width: 0.62rem;
+	height: 0.62rem;
+	margin-right: 0.78rem;
+	background: url(http://p2.ifengimg.com/a/2016/0907/exit_full.png) no-repeat 0 0;
+	background-size: 100%;
+}
+
+.fullwrap .control_full{
+	display: none;
+}
+
+.exitwrap .control_exitfull{
+	display: none;
+}
+
+.share{
+	width: 1.27rem;
+	height: 1.27rem;
+	background: url(http://p2.ifengimg.com/a/2016/0907/share.png) no-repeat 0 0;
+	background-size: 100%;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 0 0.3rem 0.42rem 0;
+}
+
+.fullwrap .controlwrap{
+	width: 100%;
+	height: 3.05rem;
+	position: absolute;
+	bottom: 0;
+}
+
+.fullwrap .control_bg{
+	height: 3.05rem;
+}
+
+.fullwrap .control{
+	height: 0.62rem;
+	bottom: 0.55rem;
+	line-height: 0.62rem;
+}
+
+.fullwrap .control_play{
+	width: 0.54rem;
+	height: 0.62rem;
+	margin: 0 0.98rem 0 0.84rem;
+}
+
+.fullwrap .full{
+	display: none;
+}
+
+.exitwrap .exitfull{
+	display: none;
+}
+.review .state{
+	display: block; 
+}
+
+
+
+
+
+
+

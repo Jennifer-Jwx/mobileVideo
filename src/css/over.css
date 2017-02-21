@@ -1,0 +1,18 @@
+.over_warp{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background: url(http://p2.ifengimg.com/a/2016/0907/over_bg.png) 0 0 no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.over_warp .text{
+	width: 100%;
+	text-align: center;
+	margin-top: 1rem;
+}
